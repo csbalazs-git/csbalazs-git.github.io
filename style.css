@@ -1,0 +1,156 @@
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+a:link {
+  color: white;
+  width: 20%;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 3px;
+  margin: auto;
+  text-align: center;
+}
+
+a:hover {
+    background-color: sandybrown;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+body {
+  width:1300px;
+}
+
+.headercontainer {
+  position: relative;
+}
+
+img {
+  object-fit: cover;
+  width: 260px;
+  height: 450px;
+  object-position: 50% 0;
+  display: block;
+}
+
+.header {
+  position: absolute;
+  font-family: 'Abril Fatface', cursive;
+  bottom: 40px;
+  left: 5px;
+  color: rgb(15, 15, 15);
+}
+
+.header2 {
+  font-size: 55px;
+}
+
+.container{
+  display: flex;
+  width:100%;
+}
+
+.quote {
+  background: #222;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 70px;
+  padding-left: 20px;
+  height: 30%;
+  width: 260px;
+  text-align: left;
+}
+.quote::before {
+  content: ",,";
+  position: relative;
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+  left: 0;
+  top: -35px;
+  font-family: "Abril Fatface", cursive;
+}
+
+.Text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #222;
+  margin:15px;
+  width: 60%;
+  margin-top:20px;
+}
+
+h1,h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  text-decoration-style: none;
+}
+h2 {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  text-decoration-style: none;
+}
+h3 {
+  margin: 0px;
+  padding: 0px;
+  text-decoration-style: none;
+  font-family: "Merriweather", serif;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;  
+    margin: 50px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  body {
+      background-color: silver;
+  }
